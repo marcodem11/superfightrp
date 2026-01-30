@@ -12,7 +12,6 @@ export const links = {
 };
 
 export const nav = [
-  { label: "Home", href: "#home" },
   { label: "Lore", href: "#lore" },
   { label: "Come giocare", href: "#come-giocare" },
   { label: "Città", href: "#citta" },
