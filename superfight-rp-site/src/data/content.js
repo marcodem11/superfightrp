@@ -29,7 +29,7 @@ export const hero = {
     "Supereroi, villain e scelte che cambiano la città. Ruola in un mondo originale, oscuro e premium, dove ogni decisione lascia un segno.",
   ctaDiscord: "Entra su Discord",
   ctaBss: "Come giocare su BSSHotel",
-  image: "/images/hero_banner.png",
+  image: "/images/face_off.png",
   highlights: [
     "World RP su BSSHotel",
     "Sistema di combattimento unico",
