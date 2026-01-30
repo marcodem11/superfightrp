@@ -18,8 +18,7 @@ export const nav = [
   { label: "Città", href: "#citta" },
   { label: "Combattimento", href: "#combattimento" },
   { label: "Economia", href: "#economia" },
-  { label: "Media", href: "#media" },
-  { label: "FAQ", href: "#faq" }
+  { label: "Media", href: "#media" }
 ];
 
 export const hero = {

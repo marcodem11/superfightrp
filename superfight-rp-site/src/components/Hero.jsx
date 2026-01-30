@@ -31,14 +31,13 @@ export default function Hero() {
         </div>
 
         <div className="reveal hero-float" data-reveal>
-          <div className="grain halftone relative overflow-hidden rounded-3xl border border-white/10 bg-slate-900/70 shadow-2xl">
+          <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-slate-900/70 shadow-2xl">
             <div
               className="h-[280px] w-full bg-cover bg-center sm:h-[360px] md:h-[420px]"
               style={{
-                backgroundImage: `linear-gradient(135deg, rgba(10,18,32,0.8), rgba(12,15,22,0.6)), url(${hero.image})`
+                backgroundImage: `url(${hero.image})`
               }}
             />
-            <div className="absolute inset-0 bg-slate-950/10" />
             <div className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/10 bg-slate-950/80 p-5">
               <p className="text-sm uppercase tracking-[0.2em] text-slate-400">Nova City vs Slum City</p>
               <p className="mt-2 text-lg font-semibold text-novaWhite">
