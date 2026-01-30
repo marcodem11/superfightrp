@@ -221,12 +221,11 @@ export const gallery = {
   title: "Media & Screenshot",
   subtitle: "Scorci dalle due città e dal loro caos.",
   items: [
-    { id: 1, title: "Slum City", tag: "Slum", src: "/images/slum_city.png" },
-    { id: 2, title: "Nova City", tag: "Nova", src: "/images/nova_city.png" },
-    { id: 3, title: "Il Covo", tag: "Underworld", src: "/images/covo.png" },
-    { id: 4, title: "Combattimento", tag: "Fight", src: "/images/combat.png" },
-    { id: 5, title: "HQ Eroi", tag: "Nova", src: "/images/hq_eroi.png" },
-    { id: 6, title: "Mercato Nero", tag: "Slum", src: "/images/mercato_nero.png" }
+    { id: 1, title: "The Hub (Off Role)", tag: "World Hub", src: "/images/thehub.png" },
+    { id: 2, title: "Slum City", tag: "Slum", src: "/images/slum_city.png" },
+    { id: 3, title: "Nova City", tag: "Nova", src: "/images/nova_city.png" },
+    { id: 4, title: "Magazzino Segreto Villain", tag: "Covo", src: "/images/covo.png" },
+    { id: 5, title: "HQ Eroi", tag: "Nova", src: "/images/hq_eroi.png" }
   ]
 };
 
@@ -266,4 +265,3 @@ export const footer = {
   credits: "SuperFight RP © 2026 — Tutti i diritti riservati.",
   note: "Rusty - Owner"
 };
-
