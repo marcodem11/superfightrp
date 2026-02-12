@@ -4,11 +4,37 @@ import Hero from "./components/Hero";
 import Section from "./components/Section";
 import CityCards from "./components/CityCards";
 import CombatTabs from "./components/CombatTabs";
-import EconomyCards from "./components/EconomyCards";
+import LiveCommandsTabs from "./components/LiveCommandsTabs";
+import EconomyV2 from "./components/EconomyV2";
+import StructuresTable from "./components/StructuresTable";
+import LaboratorySection from "./components/LaboratorySection";
+import StatsSystemSection from "./components/StatsSystemSection";
+import MissionsSection from "./components/MissionsSection";
+import ShopInteractiveSection from "./components/ShopInteractiveSection";
+import RolesMatrix from "./components/RolesMatrix";
+import ChangelogSection from "./components/ChangelogSection";
+import QuickSetupSection from "./components/QuickSetupSection";
 import Gallery from "./components/Gallery";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
-import { about, lore, howTo, combat, economy, gallery, faq } from "./data/content";
+import {
+  about,
+  lore,
+  howTo,
+  combat,
+  liveCommands,
+  economy2,
+  structures,
+  laboratory,
+  statsSystem,
+  missions,
+  shopInteractive,
+  rolesPermissions,
+  seasonChangelog,
+  quickSetup,
+  gallery,
+  faq
+} from "./data/content";
 
 export default function App() {
   useEffect(() => {
@@ -95,8 +121,44 @@ export default function App() {
         <CombatTabs />
       </Section>
 
-      <Section id="economia" title={economy.title} subtitle={economy.subtitle}>
-        <EconomyCards />
+      <Section id="comandi-live" title={liveCommands.title} subtitle={liveCommands.subtitle}>
+        <LiveCommandsTabs />
+      </Section>
+
+      <Section id="economia-2" title={economy2.title} subtitle={economy2.subtitle}>
+        <EconomyV2 />
+      </Section>
+
+      <Section id="strutture" title={structures.title} subtitle={structures.subtitle}>
+        <StructuresTable />
+      </Section>
+
+      <Section id="laboratorio" title={laboratory.title} subtitle={laboratory.subtitle}>
+        <LaboratorySection />
+      </Section>
+
+      <Section id="stats" title={statsSystem.title} subtitle={statsSystem.subtitle}>
+        <StatsSystemSection />
+      </Section>
+
+      <Section id="missioni" title={missions.title} subtitle={missions.subtitle}>
+        <MissionsSection />
+      </Section>
+
+      <Section id="shop-live" title={shopInteractive.title} subtitle={shopInteractive.subtitle}>
+        <ShopInteractiveSection />
+      </Section>
+
+      <Section id="ruoli" title={rolesPermissions.title} subtitle={rolesPermissions.subtitle}>
+        <RolesMatrix />
+      </Section>
+
+      <Section id="changelog" title={seasonChangelog.title} subtitle={seasonChangelog.subtitle}>
+        <ChangelogSection />
+      </Section>
+
+      <Section id="setup-pg" title={quickSetup.title} subtitle={quickSetup.subtitle}>
+        <QuickSetupSection />
       </Section>
 
       <Section id="media" title={gallery.title} subtitle={gallery.subtitle}>
